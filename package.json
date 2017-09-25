@@ -6,6 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "es6-shim": "^0.35.3",
     "firebaseui": "^2.3.0",
     "lodash": "^4.17.4",
     "material-ui": "^0.19.2",
@@ -27,7 +28,10 @@
     "redux-form": "^6.6.1",
     "redux-form-material-ui": "^4.2.0",
     "redux-thunk": "^2.2.0",
-    "whatwg-fetch": "^2.0.3"
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.3",
+    "whatwg-fetch": "^2.0.3",
+    "zone.js": "^0.8.17"
   },
   "scripts": {
     "clean": "rimraf dist",
